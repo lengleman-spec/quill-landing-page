@@ -24,6 +24,7 @@ h1 {
   text-align: center;
   line-height: 1.2;
   letter-spacing: -2px;
+  color: var(--shade-graphite);
 }
 
 h2 {
@@ -33,6 +34,7 @@ h2 {
   font-family: "Poppins", sans-serif;
   line-height: 1.2;
   letter-spacing: -2px;
+  color: var(--shade-graphite);
 }
 
 h3 {
@@ -41,6 +43,7 @@ h3 {
   font-family: "Poppins", sans-serif;
   line-height: 1.2;
   letter-spacing: -2px;
+  color: var(--shade-graphite);
 }
 
 h4 {
@@ -49,6 +52,7 @@ h4 {
   font-family: "Poppins", sans-serif;
   line-height: 1.2;
   letter-spacing: -2px;
+  color: var(--shade-graphite);
 }
 
 h5 {
@@ -57,6 +61,7 @@ h5 {
   font-family: "Poppins", sans-serif;
   line-height: 1.2;
   letter-spacing: -2px;
+  color: var(--shade-graphite);
 }
 
 p {
@@ -64,6 +69,7 @@ p {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
+  color: var(--base-slate);
 }
 
 a {
@@ -72,6 +78,7 @@ a {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   line-height: 1.5;
+  color: var(--base-slate);
 }
 
 ul {
