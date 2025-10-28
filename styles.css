@@ -1,3 +1,22 @@
+:root {
+  /*Primary Colors*/
+  --base-sky-blue: #339af0;
+  --tint-artic: #d0ebff;
+  --shade-deep-sea: #1c7ed6;
+  /*Secondary Colors*/
+  --base-lavender: #9775fa;
+  --tint-moonlight-iris: #e5dbff;
+  --shade-velvet-night: #7048e8;
+  /*Tertiary Colors*/
+  --base-pumpkin: #ff922b;
+  --tint-dawn: #ff38cc;
+  --shade-lava: #f76707;
+  /*Gray Scales*/
+  --base-slate: #495057;
+  --tint-pebble: #f1f3f5;
+  --shade-graphite: #212529;
+}
+
 h1 {
   font-weight: 700;
   font-size: 62px;
