@@ -47,26 +47,31 @@ h4 {
 }
 
 h5 {
-  font-size: 40px;
+  font-size: 24px;
+}
+
+a,
+p,
+.small-text {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  color: var(--base-slate);
 }
 
 p {
-  font-weight: 400;
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
-  line-height: 1.5;
-  color: var(--base-slate);
 }
 
 a {
-  font-weight: 400;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
   text-decoration: none;
-  line-height: 1.5;
-  color: var(--base-slate);
 }
 
 ul {
   list-style-type: none;
+}
+
+.small-text {
+  font-size: 12px;
 }
