@@ -83,10 +83,22 @@ ul {
   text-decoration: none;
 }
 
-.btn-primary {
+.btn-primary:link,
+.btn-primary:visited {
   color: var(--base-sky-blue);
 }
 
-.btn-secondary {
+.btn-primary:hover,
+.btn-primary:active {
+  color: var(--shade-deep-sea);
+}
+
+.btn-secondary:link,
+.btn-secondary:visited {
   color: var(--base-lavender);
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+  color: var(--shade-velvet-night);
 }
