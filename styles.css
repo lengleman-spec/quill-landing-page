@@ -75,3 +75,18 @@ ul {
 .small-text {
   font-size: 12px;
 }
+
+.btn {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.btn-primary {
+  color: var(--base-sky-blue);
+}
+
+.btn-secondary {
+  color: var(--base-lavender);
+}
