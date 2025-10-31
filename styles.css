@@ -17,11 +17,16 @@
   --shade-graphite: #212529;
 }
 
+/* ------------------ GLOBAL STYLES ------------------  */
 body {
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--base-slate);
 }
 
-h1 h2,
+h1,
+h2,
 h3,
 h4,
 h5 {
@@ -32,12 +37,10 @@ h5 {
 }
 
 h1 {
-  text-align: center;
   font-size: 62px;
 }
 
 h2 {
-  text-align: center;
   font-size: 48px;
 }
 
@@ -51,14 +54,6 @@ h4 {
 
 h5 {
   font-size: 24px;
-}
-
-a,
-p,
-.small-text {
-  font-weight: 400;
-  line-height: 1.5;
-  color: var(--base-slate);
 }
 
 p {
@@ -78,6 +73,7 @@ ul {
   font-size: 12px;
 }
 
+/* ------------------ COMPONENTS ------------------  */
 .btn {
   font-weight: 400;
   font-size: 16px;
@@ -102,4 +98,29 @@ ul {
 .btn-secondary:hover,
 .btn-secondary:active {
   color: var(--shade-velvet-night);
+}
+
+/* ------------------ SECTIONS ------------------  */
+/* ----- HERO SECTION ----- */
+
+.hero-section {
+  text-align: center;
+}
+
+/* ----- FEATURES SECTION ----- */
+
+.features-main-heading {
+  text-align: center;
+}
+
+/* ----- CTA SECTION ----- */
+
+.cta-section {
+  text-align: center;
+}
+
+/* ----- FOOTER SECTION ----- */
+
+.footer-section {
+  text-align: center;
 }
