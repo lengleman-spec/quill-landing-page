@@ -77,7 +77,6 @@ ul {
 
 /* ------------------ COMPONENTS ------------------  */
 .btn {
-  font-weight: 400;
   font-size: 16px;
   text-decoration: none;
 }
@@ -104,6 +103,22 @@ ul {
 .btn-secondary:active {
   color: var(--color-white);
   background-color: var(--shade-velvet-night);
+}
+
+.highlight {
+  color: var(--color-white);
+}
+
+.highlight-primary {
+  background-color: var(--base-sky-blue);
+}
+
+.highlight-secondary {
+  background-color: var(--base-lavender);
+}
+
+.highlight-tertiary {
+  background-color: var(--base-pumpkin);
 }
 
 /* ------------------ SECTIONS ------------------  */
