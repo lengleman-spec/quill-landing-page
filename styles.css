@@ -138,6 +138,11 @@ ul {
 
 .cta-section {
   text-align: center;
+  background-color: var(--base-sky-blue);
+}
+
+.cta-card {
+  background-color: var(--base-sky-blue);
 }
 
 /* ----- FOOTER SECTION ----- */
