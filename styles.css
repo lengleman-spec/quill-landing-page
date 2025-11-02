@@ -15,6 +15,8 @@
   --base-slate: #495057;
   --tint-pebble: #f1f3f5;
   --shade-graphite: #212529;
+  --color-white: #fff;
+  --color-black: #000;
 }
 
 /* ------------------ GLOBAL STYLES ------------------  */
@@ -82,22 +84,26 @@ ul {
 
 .btn-primary:link,
 .btn-primary:visited {
-  color: var(--base-sky-blue);
+  background-color: var(--base-sky-blue);
+  color: var(--color-white);
 }
 
 .btn-primary:hover,
 .btn-primary:active {
-  color: var(--shade-deep-sea);
+  color: var(--color-white);
+  background-color: var(--shade-deep-sea);
 }
 
 .btn-secondary:link,
 .btn-secondary:visited {
-  color: var(--base-lavender);
+  color: var(--color-white);
+  background-color: var(--base-lavender);
 }
 
 .btn-secondary:hover,
 .btn-secondary:active {
-  color: var(--shade-velvet-night);
+  color: var(--color-white);
+  background-color: var(--shade-velvet-night);
 }
 
 /* ------------------ SECTIONS ------------------  */
