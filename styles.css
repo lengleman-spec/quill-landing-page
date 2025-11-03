@@ -79,34 +79,54 @@ ul {
 .btn {
   font-size: 16px;
   text-decoration: none;
+  padding: 15px 30px;
 }
 
 .btn-primary:link,
 .btn-primary:visited {
-  background-color: var(--base-sky-blue);
   color: var(--color-white);
+  background-color: var(--base-sky-blue);
+  border: 2px solid var(--base-sky-blue);
 }
 
 .btn-primary:hover,
 .btn-primary:active {
   color: var(--color-white);
   background-color: var(--shade-deep-sea);
+  border: 2px solid var(--shade-deep-sea);
+}
+
+.btn-primary-outline:link,
+.btn-primary-outline:visited {
+  color: var(--base-sky-blue);
+  background-color: var(--color-white);
+  border: 2px solid var(--base-sky-blue);
+}
+
+.btn-primary-outline:hover,
+.btn-primary-outline:active {
+  color: var(--shade-deep-sea);
+  background-color: var(--color-white);
+  border: 2px solid var(--shade-deep-sea);
 }
 
 .btn-secondary:link,
 .btn-secondary:visited {
   color: var(--color-white);
   background-color: var(--base-lavender);
+  border: 2px solid var(--base-lavender);
 }
 
 .btn-secondary:hover,
 .btn-secondary:active {
   color: var(--color-white);
   background-color: var(--shade-velvet-night);
+  border: 2px solid var(--shade-velvet-night);
 }
 
 .highlight {
   color: var(--color-white);
+  padding: 5px 10px;
 }
 
 .highlight-primary {
@@ -159,6 +179,7 @@ ul {
 .cta-card {
   background-color: var(--base-sky-blue);
   width: 1000px;
+  padding: 100px 200px;
 }
 
 /* ----- FOOTER SECTION ----- */
