@@ -19,6 +19,12 @@
   --color-black: #000;
 }
 
+/* -------- SPACING GUIDELINES --------
+
+5px / 10px / 15px / 20px / 25px / 30px / 40px / 50px / 60px / 7px / 80px / 90px / 100px / 125px / 150px / 200px / 250px / 300px / 400px / 500px 
+
+*/
+
 /* ------------------ GLOBAL STYLES ------------------  */
 * {
   box-sizing: border-box;
@@ -155,16 +161,35 @@ ul {
 }
 
 /* ------------------ SECTIONS ------------------  */
-/* ----- HERO SECTION ----- */
 
+/* ----- NAV SECTION ----- */
+.navbar {
+  margin-bottom: 200px;
+}
+
+/* ----- HERO SECTION ----- */
 .hero-section {
   text-align: center;
+  margin-bottom: 300px;
+}
+
+.hero-heading {
+  margin-bottom: 10px;
+}
+
+.hero-paragraph {
+  margin-bottom: 5px;
 }
 
 /* ----- FEATURES SECTION ----- */
 
+.features-section {
+  margin-bottom: 300px;
+}
+
 .features-main-heading {
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .feature-img {
@@ -178,8 +203,7 @@ ul {
 /* ----- CTA SECTION ----- */
 
 .cta-section {
-  text-align: center;
-  background-color: var(--base-sky-blue);
+  margin-bottom: 300px;
 }
 
 .cta-card {
@@ -187,6 +211,7 @@ ul {
   width: 1000px;
   padding: 100px 200px;
   border-radius: 20px;
+  text-align: center;
 }
 
 /* ----- FOOTER SECTION ----- */
