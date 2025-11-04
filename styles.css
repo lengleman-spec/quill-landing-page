@@ -20,6 +20,10 @@
 }
 
 /* ------------------ GLOBAL STYLES ------------------  */
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -80,6 +84,7 @@ ul {
   font-size: 16px;
   text-decoration: none;
   padding: 15px 30px;
+  border-radius: 8px;
 }
 
 .btn-primary:link,
@@ -127,6 +132,7 @@ ul {
 .highlight {
   color: var(--color-white);
   padding: 5px 10px;
+  border-radius: 4px;
 }
 
 .highlight-primary {
@@ -180,6 +186,7 @@ ul {
   background-color: var(--base-sky-blue);
   width: 1000px;
   padding: 100px 200px;
+  border-radius: 20px;
 }
 
 /* ----- FOOTER SECTION ----- */
