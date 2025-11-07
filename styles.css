@@ -39,6 +39,11 @@ body {
   color: var(--base-slate);
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -199,6 +204,10 @@ span {
   margin-bottom: 80px;
 }
 
+.feature-headings {
+  margin-bottom: 80px;
+}
+
 .feature-img {
   width: 400px;
 }
@@ -215,10 +224,15 @@ span {
 
 .cta-card {
   background-color: var(--base-sky-blue);
-  width: 1000px;
+  max-width: 1000px;
   padding: 100px 200px;
   border-radius: 20px;
   text-align: center;
+  margin: 0 auto;
+}
+
+.cta-heading {
+  margin-bottom: 30px;
 }
 
 /* ----- FOOTER SECTION ----- */
