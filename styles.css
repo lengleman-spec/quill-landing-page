@@ -17,6 +17,17 @@
   --shade-graphite: #212529;
   --color-white: #fff;
   --color-black: #000;
+
+  /* Font Sizes */
+
+  --text-sm: 12px;
+  --text-base: 16px;
+  --text-paragraph: 20px;
+  --text-h5: 24px;
+  --text-h4: 32px;
+  --text-h3: 40px;
+  --text-h2: 48px;
+  --text-h1: 62px;
 }
 
 /* -------- SPACING GUIDELINES --------
