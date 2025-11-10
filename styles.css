@@ -1,7 +1,7 @@
 :root {
   /*Primary Colors*/
-  --base-sky-blue: #339af0;
-  --tint-artic: #d0ebff;
+  --primary-base: #339af0;
+  --primary-tint: #d0ebff;
   --shade-deep-sea: #1c7ed6;
   /*Secondary Colors*/
   --base-lavender: #9775fa;
@@ -19,7 +19,6 @@
   --color-black: #000;
 
   /* Font Sizes */
-
   --text-sm: 12px;
   --text-base: 16px;
   --text-paragraph: 20px;
@@ -28,6 +27,20 @@
   --text-h3: 40px;
   --text-h2: 48px;
   --text-h1: 62px;
+
+  /* Font Weights */
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  /* Line Height */
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+
+  /* Letter Spacing */
+  --letter-spacing-tight: -2px;
+
+  /* Font Family */
+  --font-family: "Poppins", sans-serif;
 }
 
 /* -------- SPACING GUIDELINES --------
