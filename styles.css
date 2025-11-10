@@ -19,14 +19,14 @@
   --black: #000;
 
   /* Font Sizes */
-  --text-sm: 12px;
-  --text-base: 16px;
-  --text-paragraph: 20px;
-  --text-h5: 24px;
-  --text-h4: 32px;
-  --text-h3: 40px;
-  --text-h2: 48px;
-  --text-h1: 62px;
+  --text-sm: 1.2rem;
+  --text-base: 1.6rem;
+  --text-paragraph: 2rem;
+  --text-h5: 2.4rem;
+  --text-h4: 3.2rem;
+  --text-h3: 4rem;
+  --text-h2: 4.8rem;
+  --text-h1: 6.2rem;
 
   /* Font Weights */
   --font-weight-normal: 400;
@@ -85,31 +85,31 @@ h5 {
 }
 
 h1 {
-  font-size: 6.2rem;
+  font-size: var(--text-h1);
 }
 
 h2 {
-  font-size: 4.8rem;
+  font-size: var(--text-h2);
 }
 
 h3 {
-  font-size: 4rem;
+  font-size: var(--text-h3);
 }
 
 h4 {
-  font-size: 3.2rem;
+  font-size: var(--text-h4);
 }
 
 h5 {
-  font-size: 2.4rem;
+  font-size: var(--text-h5);
 }
 
 p {
-  font-size: 2rem;
+  font-size: var(--text-paragraph);
 }
 
 a {
-  font-size: 1.6rem;
+  font-size: var(--text-base);
   text-decoration: none;
   display: inline-block;
 }
@@ -123,12 +123,12 @@ span {
 }
 
 .small-text {
-  font-size: 1.2rem;
+  font-size: var(--text-sm);
 }
 
 /* ------------------ COMPONENTS ------------------  */
 .btn {
-  font-size: 1.6rem;
+  font-size: var(--text-base);
   text-decoration: none;
   padding: 1.5rem 3rem;
   border-radius: 8px;
@@ -136,62 +136,62 @@ span {
 
 .btn-primary:link,
 .btn-primary:visited {
-  color: var(--color-white);
-  background-color: var(--base-sky-blue);
-  border: 2px solid var(--base-sky-blue);
+  color: var(--white);
+  background-color: var(--primary-base);
+  border: 2px solid var(--primary-base);
 }
 
 .btn-primary:hover,
 .btn-primary:active {
-  color: var(--color-white);
-  background-color: var(--shade-deep-sea);
-  border: 2px solid var(--shade-deep-sea);
+  color: var(--white);
+  background-color: var(--primary-shade);
+  border: 2px solid var(--primary-shade);
 }
 
 .btn-primary-outline:link,
 .btn-primary-outline:visited {
-  color: var(--base-sky-blue);
-  background-color: var(--color-white);
-  border: 2px solid var(--base-sky-blue);
+  color: var(--primary-base);
+  background-color: var(--white);
+  border: 2px solid var(--primary-base);
 }
 
 .btn-primary-outline:hover,
 .btn-primary-outline:active {
-  color: var(--shade-deep-sea);
-  background-color: var(--color-white);
-  border: 2px solid var(--shade-deep-sea);
+  color: var(--primary-shade);
+  background-color: var(--white);
+  border: 2px solid var(--primary-shade);
 }
 
 .btn-secondary:link,
 .btn-secondary:visited {
-  color: var(--color-white);
-  background-color: var(--base-lavender);
-  border: 2px solid var(--base-lavender);
+  color: var(--white);
+  background-color: var(--secondary-base);
+  border: 2px solid var(--secondary-base);
 }
 
 .btn-secondary:hover,
 .btn-secondary:active {
-  color: var(--color-white);
-  background-color: var(--shade-velvet-night);
-  border: 2px solid var(--shade-velvet-night);
+  color: var(--white);
+  background-color: var(--secondary-shade);
+  border: 2px solid var(--secondary-shade);
 }
 
 .highlight {
-  color: var(--color-white);
+  color: var(--white);
   padding: 0.5rem 1rem;
   border-radius: 4px;
 }
 
 .highlight-primary {
-  background-color: var(--base-sky-blue);
+  background-color: var(--primary-base);
 }
 
 .highlight-secondary {
-  background-color: var(--base-lavender);
+  background-color: var(--secondary-base);
 }
 
 .highlight-tertiary {
-  background-color: var(--base-pumpkin);
+  background-color: var(--tertiary-base);
 }
 
 .logo-md {
@@ -254,7 +254,7 @@ span {
 }
 
 .cta-card {
-  background-color: var(--base-sky-blue);
+  background-color: var(--primary-base);
   max-width: 1000px;
   padding: 10rem 20rem;
   border-radius: 20px;
