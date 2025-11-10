@@ -61,10 +61,10 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  line-height: 1.5;
-  color: var(--base-slate);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-normal);
+  color: var(--gray-base);
 }
 
 .container {
@@ -78,10 +78,10 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: -2px;
-  color: var(--shade-graphite);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+  color: var(--gray-shade);
 }
 
 h1 {
