@@ -41,6 +41,9 @@
 
   /* Font Family */
   --font-family: "Poppins", sans-serif;
+
+  /* Micellaneous */
+  --nav-height: 300px;
 }
 
 /* -------- SPACING GUIDELINES --------
@@ -203,20 +206,21 @@ span {
 
 /* ------------------ SECTIONS ------------------  */
 /* ----- HEADER  ----- */
-.header {
-  height: 100vh;
-  min-height: 800px;
-}
 
 /* ----- NAV SECTION ----- */
 .navbar {
-  margin-bottom: 20rem;
+  height: var(--nav-height);
+
+  background-color: lightblue;
 }
 
 /* ----- HERO SECTION ----- */
 .hero-section {
+  height: calc(100vh - var(--nav-height));
+  min-height: 400px;
   text-align: center;
-  margin-bottom: 30rem;
+  margin-bottom: 10rem;
+  background-color: salmon;
 }
 
 .hero-heading {
