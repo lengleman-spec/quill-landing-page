@@ -2,21 +2,21 @@
   /*Primary Colors*/
   --primary-base: #339af0;
   --primary-tint: #d0ebff;
-  --shade-deep-sea: #1c7ed6;
+  --primary-shade: #1c7ed6;
   /*Secondary Colors*/
-  --base-lavender: #9775fa;
-  --tint-moonlight-iris: #e5dbff;
-  --shade-velvet-night: #7048e8;
+  --secondary-base: #9775fa;
+  --secondary-tint: #e5dbff;
+  --secondary-shade: #7048e8;
   /*Tertiary Colors*/
-  --base-pumpkin: #ff922b;
-  --tint-dawn: #ff38cc;
-  --shade-lava: #f76707;
+  --tertiary-base: #ff922b;
+  --tertiary-tint: #ff38cc;
+  --tertiary-shade: #f76707;
   /*Gray Scales*/
-  --base-slate: #495057;
-  --tint-pebble: #f1f3f5;
-  --shade-graphite: #212529;
-  --color-white: #fff;
-  --color-black: #000;
+  --gray-base: #495057;
+  --gray-tint: #f1f3f5;
+  --gray-shade: #212529;
+  --white: #fff;
+  --black: #000;
 
   /* Font Sizes */
   --text-sm: 12px;
