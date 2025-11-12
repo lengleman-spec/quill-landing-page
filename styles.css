@@ -210,8 +210,8 @@ span {
 /* ----- NAV SECTION ----- */
 .navbar {
   height: var(--nav-height);
-
-  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* ----- HERO SECTION ----- */
@@ -220,7 +220,6 @@ span {
   min-height: 400px;
   text-align: center;
   margin-bottom: 10rem;
-  background-color: salmon;
 }
 
 .hero-heading {
@@ -273,7 +272,8 @@ span {
 /* ----- FOOTER SECTION ----- */
 
 .footer-section {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .social-icons {
