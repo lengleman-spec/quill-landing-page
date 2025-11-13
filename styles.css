@@ -43,7 +43,7 @@
   --font-family: "Poppins", sans-serif;
 
   /* Micellaneous */
-  --nav-height: 300px;
+  --nav-height: 100px;
 }
 
 /* -------- SPACING GUIDELINES --------
@@ -212,6 +212,12 @@ span {
   height: var(--nav-height);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.nav-btn-container {
+  display: flex;
+  gap: 2rem;
 }
 
 /* ----- HERO SECTION ----- */
@@ -274,6 +280,18 @@ span {
 .footer-section {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-icons-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-links-container {
+  display: flex;
+  gap: 1rem;
 }
 
 .social-icons {
