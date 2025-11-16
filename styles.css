@@ -269,6 +269,8 @@ span {
 
 .cta-section {
   margin-bottom: 30rem;
+  display: flex;
+  justify-content: center;
 }
 
 .cta-card {
@@ -277,7 +279,6 @@ span {
   padding: 10rem 20rem;
   border-radius: 20px;
   text-align: center;
-  margin: 0 auto;
 }
 
 .cta-heading {
