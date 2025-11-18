@@ -256,6 +256,11 @@ span {
   margin-bottom: 8rem;
 }
 
+.features-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .feature-headings {
   margin-bottom: 2rem;
 }
@@ -276,6 +281,7 @@ span {
 .cta-card {
   background-color: var(--primary-base);
   max-width: 1000px;
+  width: 100%;
   padding: 10rem 20rem;
   border-radius: 20px;
   text-align: center;
