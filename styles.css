@@ -117,6 +117,13 @@ a {
   display: inline-block;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--gray-base);
+}
+
 ul {
   list-style-type: none;
 }
@@ -298,6 +305,7 @@ span {
 
 .cta-heading {
   margin-bottom: 3rem;
+  color: var(--white);
 }
 
 /* ----- FOOTER SECTION ----- */
@@ -321,4 +329,8 @@ span {
 
 .social-icons {
   width: 20px;
+}
+
+.heart-icon {
+  color: var(--secondary-base) !important;
 }
