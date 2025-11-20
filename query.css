@@ -24,3 +24,26 @@
     /* 8px / 16px = 50% */
   }
 }
+
+@media (max-width: 43rem) {
+  /* 680px / 16px = 43rem
+    43rem x 16px = 688px */
+
+  html {
+    font-size: 43.75%;
+    /* 7px / 16px = 43.75% */
+  }
+
+  .cta-card {
+    padding: 8rem 16rem;
+  }
+
+  .features-section {
+    margin-bottom: 20rem;
+  }
+
+  .features-grid-container {
+    row-gap: 5rem;
+    column-gap: 0.5rem;
+  }
+}
