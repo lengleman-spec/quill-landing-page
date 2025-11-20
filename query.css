@@ -58,6 +58,23 @@
   }
 
   .hero-heading-break {
-    display: none;
+    display: none; /* Hides line break in hero */
+  }
+
+  .hero-section {
+    height: auto;
+  }
+
+  .features-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-img-swap-order {
+    grid-row: auto;
+    grid-column: auto;
+  }
+
+  .cta-card {
+    padding: 8rem 6rem;
   }
 }
