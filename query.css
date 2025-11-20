@@ -47,3 +47,17 @@
     column-gap: 0.5rem;
   }
 }
+
+@media (max-width: 34rem) {
+  /* 530px / 16px = 34rem
+    34rem x 16px = 544px */
+
+  html {
+    font-size: 37.5%;
+    /* 6px / 16px = 37.5% */
+  }
+
+  .hero-heading-break {
+    display: none;
+  }
+}
