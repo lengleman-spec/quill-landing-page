@@ -232,6 +232,23 @@ span {
   height: 5rem;
 }
 
+.beta {
+  position: relative; /* Anchor for pseudoelement */
+}
+
+.beta::after {
+  content: "beta";
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.2rem;
+  background-color: var(--tertiary-base);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transform: translate(70%, -70%);
+}
+
 /* ------------------ SECTIONS ------------------  */
 /* ----- HEADER  ----- */
 
